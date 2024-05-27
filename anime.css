@@ -1,0 +1,30 @@
+img{
+    animation: bg 5s ease-in-out infinite;
+    backdrop-filter: blur(600px);
+}
+/* body{
+    background: linear-gradient(-295deg,rgb(189, 237, 211),rgb(148, 135, 209),rgb(107, 190, 76),rgb(185, 32, 227),purple);
+    animation: cg 6s ease-in infinite;
+    height: 100vh;
+    background-size: 400%,400%;
+} */
+@keyframes bg {
+   0%{
+    filter: hue-rotate(0deg);
+   } 
+   50%{
+    filter:hue-rotate(30deg);
+   }
+}
+@keyframes cg {
+    0%{
+         background-position: 0%
+    }
+    50%{
+        background-position:50% ;
+    }
+    100%{
+        background-position: 100%;
+        
+    }
+}
